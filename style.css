@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: center; 
+    margin : 50px
+}
+
+.coloum{
+    border: 2px solid red; 
+    width: 30px; 
+    height: 30px
+}
+
+.line{
+    display: 
+    flex;gap: 10px; 
+    flex:1
+}
