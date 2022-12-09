@@ -1,24 +1,22 @@
 body{
     margin: 0;
-    padding: 0;
+    padding: 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
 }
 
 .container{
     display: flex; 
     flex-direction: column; 
     align-items: center; 
-    margin : 50px;
     border: 5px solid black;
+    width: 500px;
+    height: 500px;
 }
 
-.coloum{
-    width: 30px; 
-    height: 30px
-}
 
 .covered{
     background-color: black;
@@ -27,4 +25,14 @@ body{
 
 .line{
     display: flex;
+}
+
+button{
+    background-color: blueviolet;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: none;
+    width: 135px;
+    height: 40px;
 }
