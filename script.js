@@ -12,6 +12,15 @@ for(let i = 1; i<=16; i++){
     container.appendChild(line);
 }
 
+function hover(){
+    this.classList.add('hover');
+}
+
+function covered(e){
+    this.classList.remove('hover');
+    this.classList.add('covered');
+}
+
 const lines = document.querySelectorAll('.line');
 lines.forEach(line=> {
     
@@ -19,6 +28,6 @@ lines.forEach(line=> {
 
 const boxes = document.querySelectorAll('.coloum');
 boxes.forEach(box=> {
-    
+    box.addEventListener('mouseover', covered);
 })
 

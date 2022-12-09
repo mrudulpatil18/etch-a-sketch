@@ -10,19 +10,21 @@ body{
 .container{
     display: flex; 
     flex-direction: column; 
-    gap: 10px; 
     align-items: center; 
-    margin : 50px
+    margin : 50px;
+    border: 5px solid black;
 }
 
 .coloum{
-    border: 2px solid red; 
     width: 30px; 
     height: 30px
 }
 
+.covered{
+    background-color: black;
+    border: 0px;
+}
+
 .line{
-    display: 
-    flex;gap: 10px; 
-    flex:1
+    display: flex;
 }
